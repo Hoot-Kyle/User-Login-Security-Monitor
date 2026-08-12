@@ -9,7 +9,7 @@ The project is split into two independent pieces that mirror how a real detectio
 - **`login_generator.py`** — a producer script that continuously creates realistic, randomized login events (using [Faker](https://faker.readthedocs.io/)) and writes them to a shared SQLite database.
 - **`login_check.py`** — the Streamlit dashboard, which polls that database for new events, scores each one against a set of detection rules, and surfaces alerts as they happen.
 
-Because the two run as separate processes talking through a database, the dashboard behaves like a real live feed rather than replaying a static, pre-loaded file.
+Because the two run as separate processes talking through a database, the dashboard behaves like a real live feed rather than the static Excel file it used in the earlier version.
 
 ## Features
 
