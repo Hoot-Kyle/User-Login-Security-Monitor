@@ -69,7 +69,7 @@ streamlit run login_check.py
 
 Then open the dashboard in your browser (Streamlit defaults to `http://localhost:8501`) and click **Start** to begin processing the live feed.
 
-## Tech Stack
+## The Stack
 
 - [Python](https://www.python.org/)
 - [Streamlit](https://streamlit.io/) — dashboard UI
