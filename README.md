@@ -1,6 +1,6 @@
 # User Login Security Monitor
 
-A SOC-style dashboard, built with Python and Streamlit, that watches a live stream of login events and flags the risky ones in real time. It's a from-scratch simulation of the kind of login-monitoring view a security analyst would use to spot suspicious sign-in activity — failed logins, after-hours access, sign-ins from high-risk countries, and unrecognized devices.
+A SOC-style dashboard, built with Python and Streamlit, that watches a live stream of login events and flags the risky ones in real time. It's a from-scratch simulation of the kind of login-monitoring view a security analyst would use to spot suspicious sign-in activity such as failed logins, after-hours access, sign-ins from high-risk countries, and unrecognized devices.
 
 ## Overview
 
